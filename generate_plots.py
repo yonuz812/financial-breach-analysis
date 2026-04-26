@@ -45,8 +45,8 @@ ax.legend(fontsize=10)
 ax.set_xticks(years)
 ax.set_ylim(3, 7.5)
 fig.tight_layout()
-fig.savefig('/mnt/user-data/outputs/fig1_cost_trend.pdf', bbox_inches='tight')
-fig.savefig('/mnt/user-data/outputs/fig1_cost_trend.png', bbox_inches='tight')
+fig.savefig('fig1_cost_trend.pdf', bbox_inches='tight')
+fig.savefig('fig1_cost_trend.png', bbox_inches='tight')
 plt.close()
 print("Figure 1 saved.")
 
@@ -82,8 +82,8 @@ ax1.set_title('Financial Sector Cost Premium Over Global Average (2020–2025)',
               fontsize=11, fontweight='bold', pad=12)
 ax1.set_xticks(years)
 fig.tight_layout()
-fig.savefig('/mnt/user-data/outputs/fig2_premium.pdf', bbox_inches='tight')
-fig.savefig('/mnt/user-data/outputs/fig2_premium.png', bbox_inches='tight')
+fig.savefig('fig2_premium.pdf', bbox_inches='tight')
+fig.savefig('fig2_premium.png', bbox_inches='tight')
 plt.close()
 print("Figure 2 saved.")
 
@@ -108,8 +108,8 @@ for at in autotexts:
 ax.set_title('Root Causes of Data Breaches, All Industries (IBM 2024)',
              fontsize=11, fontweight='bold', pad=16)
 fig.tight_layout()
-fig.savefig('/mnt/user-data/outputs/fig3_root_causes.pdf', bbox_inches='tight')
-fig.savefig('/mnt/user-data/outputs/fig3_root_causes.png', bbox_inches='tight')
+fig.savefig('fig3_root_causes.pdf', bbox_inches='tight')
+fig.savefig('fig3_root_causes.png', bbox_inches='tight')
 plt.close()
 print("Figure 3 saved.")
 
@@ -144,8 +144,8 @@ legend_elements = [Patch(facecolor=BLUE, label='Top 2 dominant vectors'),
 ax.legend(handles=legend_elements, fontsize=9, loc='lower right')
 
 fig.tight_layout()
-fig.savefig('/mnt/user-data/outputs/fig4_attack_vectors.pdf', bbox_inches='tight')
-fig.savefig('/mnt/user-data/outputs/fig4_attack_vectors.png', bbox_inches='tight')
+fig.savefig('fig4_attack_vectors.pdf', bbox_inches='tight')
+fig.savefig('fig4_attack_vectors.png', bbox_inches='tight')
 plt.close()
 print("Figure 4 saved.")
 
